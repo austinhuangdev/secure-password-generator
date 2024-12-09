@@ -60,7 +60,7 @@ A cross-platform, high-strength random password generator that provides customiz
   開發者：Austin Huang
   聯絡方式：austinhuangdev@gmail.com
   GitHub：https://github.com/austinhuangdev
-  版本：1.7.3
+  版本：1.7.4
   授權：MIT License
 
 目前的作業系統：macOS

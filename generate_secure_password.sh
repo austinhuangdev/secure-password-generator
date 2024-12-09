@@ -1,17 +1,8 @@
 #!/usr/bin/env sh
 
-# ================================================================
-#                        密碼生成器
-# ================================================================
-# 版本：1.7.3
-# 開發者：Austin Huang
-# 聯絡方式：austinhuangdev@gmail.com
-# GitHub：https://github.com/austinhuangdev
-# 授權：MIT License
-# ================================================================
-
 GREEN='\033[1;32m'
 YELLOW='\033[1;33m'
+RED='\033[1;31m'
 CYAN='\033[1;36m'
 NC='\033[0m'
 
@@ -39,7 +30,7 @@ display_developer_info() {
     printf "  開發者：Austin Huang\n"
     printf "  聯絡方式：austinhuangdev@gmail.com\n"
     printf "  GitHub：https://github.com/austinhuangdev\n"
-    printf "  版本：1.7.3\n"
+    printf "  版本：1.7.4\n"
     printf "  授權：MIT License\n\n"
 }
 
@@ -105,7 +96,7 @@ display_password_details() {
 }
 
 display_security_tip() {
-    printf "${YELLOW}請妥善保管您的密碼，避免洩露或遺失。${NC}\n"
+    printf "${RED}請妥善保管您的密碼，避免洩露或遺失。${NC}\n"
 }
 
 generate_password() {
