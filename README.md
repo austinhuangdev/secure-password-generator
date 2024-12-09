@@ -86,5 +86,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 - **Austin Huang**
-- Contact：[austin@example.com](mailto:austinhuangdev@gmail.com)
-- GitHub：[github.com/austinhuang](https://github.com/austinhuangdev)
+- Contact：[austinhuangdev@gmail.com](mailto:austinhuangdev@gmail.com)
+- GitHub：[https://github.com/austinhuangdev](https://github.com/austinhuangdev)
