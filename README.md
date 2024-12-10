@@ -6,43 +6,57 @@ A cross-platform, high-strength random password generator that provides customiz
 
 - **High-strength random passwords**：Default length of 16 characters (configurable).
 - **Special character support**：Includes special characters by default, fully customizable.
-- **Secure randomness**：Uses `/dev/urandom` for generating truly random passwords.
+- **Secure randomness**：Uses Python's `random` module for generating truly random passwords.
 - **Clipboard support**：Automatically copies the generated password to the clipboard (if supported).
 - **Password stats**：Displays details such as the number of uppercase, lowercase, numeric, and special characters.
 - **Operating system detection**：Detects and displays the current OS.
 
 ## Requirements
 
-- **macOS**：Supports clipboard copying via `pbcopy`.
-- **Linux**：Requires `xclip` or `xsel` for clipboard functionality.
-- **BSD Systems**：Compatible, clipboard support depends on `xclip` or `xsel`.
+- **Python 3.6+**： Ensure Python is installed on your system.
+- **macOS**： Supports clipboard copying via `pbcopy`.
+- **Linux**： Requires `xclip` or `xsel` for clipboard functionality.
+- **BSD Systems**： Compatible, clipboard support depends on `xclip` or `xsel`.
 
 ## Installation
 
 1. Clone the repository：
 
-   ```bash
-   git clone https://github.com/your-username/secure-password-generator.git
+   ```shell
+   git clone https://github.com/austinhuangdev/secure-password-generator.git
    cd secure-password-generator
    ```
 
-2. Make the script executable：
+2. (可選) 建議使用虛擬環境：
 
-   ```bash
-   chmod +x generate_secure_password.sh
+   ```shell
+   python3 -m venv venv
+   source venv/bin/activate
    ```
 
-3. Run the script：
-   ```bash
-   ./generate_secure_password.sh
-   ```
+## 使用方法
 
-## Configuration
+運行 Python 腳本來生成高強度密碼：
 
-- To change the default password length or include/exclude special characters, edit the following variables in `generate_secure_password.sh`：
-  - `PASSWORD_LENGTH`：Adjust the length of the password.
-  - `INCLUDE_SPECIAL`：Set to `true` or `false` to include/exclude special characters.
-  - `SIMPLE_SPECIAL_CHARS`：Customize the set of special characters.
+```bash
+python3 generate_secure_password.py
+```
+
+## 配置
+
+要更改預設的密碼長度或包含/排除特殊字符，請編輯 `generate_secure_password.py` 中的以下變數：
+
+- `PASSWORD_LENGTH`：調整密碼的長度。
+- `INCLUDE_SPECIAL`：設置為 `True` 或 `False` 以包含/排除特殊字符。
+- `SIMPLE_SPECIAL_CHARS`：自定義特殊字符集。
+
+例如：
+
+```python
+PASSWORD_LENGTH = 20
+INCLUDE_SPECIAL = False
+SIMPLE_SPECIAL_CHARS = '!@#$%^&*()_+-=[]{}|;:,.<>?'
+```
 
 ## Example Output
 
@@ -52,9 +66,9 @@ A cross-platform, high-strength random password generator that provides customiz
 功能特色：
   - 預設生成長度為 16 的高強度隨機密碼
   - 預設包含特殊字符
-  - 使用 /dev/urandom 生成高強度隨機密碼
-  - 支援多種 Unix-like 系統 (Linux, macOS, *BSD)
-  - 可自動將密碼複製至剪貼簿（macOS、部分 Linux 系統支援）
+  - 使用隨機函式生成高強度密碼
+  - 跨平台支援（Windows、macOS、Linux）
+  - 若環境允許，可自動將密碼複製至剪貼簿
 
 開發者資訊：
   開發者：Austin Huang
@@ -86,5 +100,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 - **Austin Huang**
-- Contact：[austinhuangdev@gmail.com](mailto:austinhuangdev@gmail.com)
-- GitHub：[https://github.com/austinhuangdev](https://github.com/austinhuangdev)
+- Contact: [austinhuangdev@gmail.com](mailto:austinhuangdev@gmail.com)
+- GitHub: [https://github.com/austinhuangdev](https://github.com/austinhuangdev)
