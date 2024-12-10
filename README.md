@@ -1,22 +1,23 @@
 # Secure Password Generator
 
-A cross-platform, high-strength random password generator that provides customizable options for generating secure passwords. Designed for macOS, Linux, and \*BSD systems.
+A cross-platform, high-strength random password generator that provides customizable options for generating secure passwords. Designed for macOS, Linux, Windows, and \*BSD systems.
 
 ## Features
 
 - **High-strength random passwords**：Default length of 16 characters (configurable).
 - **Special character support**：Includes special characters by default, fully customizable.
 - **Secure randomness**：Uses Python's `random` module for generating truly random passwords.
-- **Clipboard support**：Automatically copies the generated password to the clipboard (if supported).
+- **Clipboard support**：Automatically copies the generated password to the clipboard (supports `pbcopy` for macOS, `xclip` or `xsel` for Linux/BSD, and `clip.exe` for Windows).
 - **Password stats**：Displays details such as the number of uppercase, lowercase, numeric, and special characters.
 - **Operating system detection**：Detects and displays the current OS.
 
 ## Requirements
 
-- **Python 3.6+**： Ensure Python is installed on your system.
-- **macOS**： Supports clipboard copying via `pbcopy`.
-- **Linux**： Requires `xclip` or `xsel` for clipboard functionality.
-- **BSD Systems**： Compatible, clipboard support depends on `xclip` or `xsel`.
+- **Python 3.6+**：Ensure Python is installed on your system.
+- **macOS**：Supports clipboard copying via `pbcopy`.
+- **Linux**：Requires `xclip` or `xsel` for clipboard functionality.
+- **BSD Systems**：Compatible, clipboard support depends on `xclip` or `xsel`.
+- **Windows**：Supports clipboard copying via `clip.exe` (available in most Windows systems).
 
 ## Installation
 
@@ -27,22 +28,22 @@ A cross-platform, high-strength random password generator that provides customiz
    cd secure-password-generator
    ```
 
-2. (可選) 建議使用虛擬環境：
+2. (Optional) Set up a virtual environment：
 
    ```shell
    python3 -m venv venv
    source venv/bin/activate
    ```
 
-## 使用方法
+## Usage
 
-運行 Python 腳本來生成高強度密碼：
+Run the Python script to generate a secure password：
 
 ```bash
 python3 generate_secure_password.py
 ```
 
-## 配置
+## Configuration
 
 要更改預設的密碼長度或包含/排除特殊字符，請編輯 `generate_secure_password.py` 中的以下變數：
 
