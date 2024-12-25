@@ -1,0 +1,15 @@
+# macOS 系統文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 避免 macOS 快速查看（Quick Look）產生的臨時文件
+._*
+
+# macOS Spotlight 檔案
+.Spotlight-V100
+.Trashes
+
+# macOS 復原文件
+*.swp
+
