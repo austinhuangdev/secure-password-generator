@@ -94,12 +94,12 @@ SIMPLE_SPECIAL_CHARS = '!@#$%^&*()_+-=[]{}|;:,.<>?'
 請妥善保管您的密碼，避免洩露或遺失。
 ```
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Author
 
 - **Austin Huang**
 - Contact：[austinhuangdev@gmail.com](mailto:austinhuangdev@gmail.com)
 - GitHub：[https://github.com/austinhuangdev](https://github.com/austinhuangdev)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
