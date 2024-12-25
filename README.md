@@ -96,9 +96,9 @@ SIMPLE_SPECIAL_CHARS = '!@#$%^&*()_+-=[]{}|;:,.<>?'
 
 ## Author
 
-- **Austin Huang**
-- Contact：[austinhuangdev@gmail.com](mailto:austinhuangdev@gmail.com)
-- GitHub：[https://github.com/austinhuangdev](https://github.com/austinhuangdev)
+- **Developer**：Austin Huang
+- **Contact**：[austinhuangdev@gmail.com](mailto:austinhuangdev@gmail.com)
+- **GitHub**：[https://github.com/austinhuangdev](https://github.com/austinhuangdev)
 
 ## License
 
