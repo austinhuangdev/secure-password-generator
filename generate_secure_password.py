@@ -30,7 +30,7 @@ def display_welcome():
     print(f"{GREEN}✨ 歡迎使用高強度隨機密碼生成工具！✨{NC}\n")
 
 def display_features():
-    print(f"{CYAN}功能特色:{NC}")
+    print(f"{CYAN}功能特色：{NC}")
     print(f"  - 預設生成長度為 {PASSWORD_LENGTH} 的高強度隨機密碼")
     if INCLUDE_SPECIAL:
         print("  - 預設包含特殊字符")
@@ -42,7 +42,7 @@ def display_features():
     print()
 
 def display_developer_info():
-    print(f"{CYAN}開發者資訊:{NC}")
+    print(f"{CYAN}開發者資訊：{NC}")
     print(f"  - 開發者：{DEVELOPER}")
     print(f"  - 聯絡方式：{CONTACT}")
     print(f"  - GitHub：{GITHUB}")
