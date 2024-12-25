@@ -94,7 +94,7 @@ SIMPLE_SPECIAL_CHARS = '!@#$%^&*()_+-=[]{}|;:,.<>?'
 請妥善保管您的密碼，避免洩露或遺失。
 ```
 
-## Author
+## Developer Information
 
 - **Developer**：Austin Huang
 - **Contact**：[austinhuangdev@gmail.com](mailto:austinhuangdev@gmail.com)
