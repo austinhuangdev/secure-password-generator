@@ -75,8 +75,6 @@ SIMPLE_SPECIAL_CHARS = '!@#$%^&*()_+-=[]{}|;:,.<>?'
   開發者：Austin Huang
   聯絡方式：austinhuangdev@gmail.com
   GitHub：https://github.com/austinhuangdev
-  版本：1.0.1
-  授權：MIT License
 
 目前的作業系統：macOS
 

@@ -12,11 +12,9 @@ import shutil  # 確保 shutil 已被匯入
 PASSWORD_LENGTH = 16
 INCLUDE_SPECIAL = True
 SIMPLE_SPECIAL_CHARS = '!@#$%^&*()'
-VERSION = "1.0.0"
 DEVELOPER = "Austin Huang"
 CONTACT = "austinhuangdev@gmail.com"
 GITHUB = "https://github.com/austinhuangdev"
-LICENSE = "MIT License"
 
 # ANSI 顏色碼
 GREEN = '\033[1;32m'
@@ -46,8 +44,6 @@ def display_developer_info():
     print(f"  - 開發者：{DEVELOPER}")
     print(f"  - 聯絡方式：{CONTACT}")
     print(f"  - GitHub：{GITHUB}")
-    print(f"  - 版本：{VERSION}")
-    print(f"  - 授權：{LICENSE}\n")
 
 def detect_os():
     osname = platform.system()
